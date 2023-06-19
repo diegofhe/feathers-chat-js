@@ -1,4 +1,4 @@
-import { logger } from '../logger'
+import { logger } from '../logger.js'
 
 export const logRuntime = async (context, next) => {
   const startTime = Date.now()

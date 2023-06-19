@@ -14,7 +14,7 @@ import {
 } from './messages.schema.js'
 import { MessageService, getOptions } from './messages.class.js'
 import { messagePath, messageMethods } from './messages.shared.js'
-import { logRuntime } from '../../hooks/log-runtime'
+import { logRuntime } from '../../hooks/log-runtime.js'
 
 export * from './messages.class.js'
 export * from './messages.schema.js'
